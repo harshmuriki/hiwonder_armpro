@@ -1,0 +1,38 @@
+# ignore all build directories
+build/
+devel/
+
+# ignore specific build files
+devel/.catkin
+devel/.private/
+devel/include/
+devel/lib/
+devel/share/
+devel/.catkin_tools/
+devel/.rosinstall
+devel/env.*
+
+# Ignore common ROS artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*~ 
+
+# Ignore all log directories
+logs/
+
+# Ignore other unnecessary files
+*.DS_Store
+*.bak
+*~
+
+# Ignore package-specific temporary files
+*/*/build/
+*/*/devel/
+*/*/logs/
+*/*/install/
+
+# Ignore Visual Studio Code settings
+.vscode/
