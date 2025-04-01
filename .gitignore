@@ -1,6 +1,6 @@
 # ignore all build directories
-build/
-devel/
+# build/
+# devel/
 
 # ignore specific build files
 devel/.catkin
